@@ -1,12 +1,11 @@
 public class StudentTester {
     public static void main(String[] args)
     {
-        //char[] pillbox=new char[7];
         //array of StudentDemo objects
         
-        StudentDemo s1=new StudentDemo("Raghav Sharma");
-        StudentDemo s2=new StudentDemo("Akshay Gh");
-        StudentDemo s3= new StudentDemo("Ark");
+        StudentDemo s1=new StudentDemo("Raghav Sharma",991544076);
+        StudentDemo s2=new StudentDemo("Akshay Gh",991544077);
+        StudentDemo s3= new StudentDemo("Ark",991544078);
         
         
         StudentDemo[] list=new StudentDemo[3];
