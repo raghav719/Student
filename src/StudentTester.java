@@ -5,7 +5,7 @@ public class StudentTester {
         //array of StudentDemo objects
         
         StudentDemo s1=new StudentDemo("Raghav Sharma");
-        StudentDemo s2=new StudentDemo("Akshay G");
+        StudentDemo s2=new StudentDemo("Akshay Gh");
         StudentDemo s3= new StudentDemo("Ark");
         
         
