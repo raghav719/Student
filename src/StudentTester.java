@@ -1,17 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
-/**
- * * A class that creates an Array of Students and populates it
- * with 3 students from the current section and then iterates over the
- * list to print each name.
-
- * @author Sivagama
- */
 public class StudentTester {
     public static void main(String[] args)
     {
@@ -19,7 +5,7 @@ public class StudentTester {
         //array of StudentDemo objects
         
         StudentDemo s1=new StudentDemo("Raghav Sharma");
-        StudentDemo s2=new StudentDemo("Akshay");
+        StudentDemo s2=new StudentDemo("Akshay G");
         StudentDemo s3= new StudentDemo("Ark");
         
         
