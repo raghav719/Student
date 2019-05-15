@@ -1,15 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-/**
- ** A class to model Student Objects
- * each student has: a name (first and last name)
- * each student can: say their name (getName)
 
- * @author Sivagama
- */
 public class StudentDemo {
 
     private String name;
