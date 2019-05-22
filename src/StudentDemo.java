@@ -3,12 +3,12 @@ public class StudentDemo {
 
     private String name;
     private int code;
-
+    private int maxCourse;
     //constructor
     public StudentDemo(String givenName, int givenCode)
     {
-        name=givenName;
-        code=givenCode;
+        setName(givenName);
+        setCode(givenCode);
     }
     /**
      * @return the name
@@ -36,6 +36,20 @@ public class StudentDemo {
      */
     public void setCode(int code) {
         this.code = code;
+    }
+
+    /**
+     * @return the maxCourse
+     */
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    /**
+     * @param maxCourse the maxCourse to set
+     */
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
     }
     
     
