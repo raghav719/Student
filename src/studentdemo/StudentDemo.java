@@ -1,21 +1,47 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package studentdemo;
 
-/**
- *
- * @author Owner
- */
+
 public class StudentDemo {
 
+    private String name;
+    private int code;
+
+    //constructor
+    public StudentDemo(String givenName, int givenCode)
+    {
+        setName(givenName);
+        setCode(givenCode);
+    }
     /**
-     * @param args the command line arguments
+     * @return the name
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name the name to set
+     */
+    public void setName(String givenName) {
+        name = givenName;
+    }
+
+    /**
+     * @return the code
+     */
+    public int getCode() {
+        return code;
+    }
+
+    /**
+     * @param code the code to set
+     */
+    public void setCode(int code) {
+        this.code = code;
     }
     
+    
 }
+
+    
+
