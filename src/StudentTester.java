@@ -1,5 +1,5 @@
 /*Author: Raghav Sharma
-hello
+hello sheridan college
 */
 public class StudentTester {
     public static void main(String[] args)
